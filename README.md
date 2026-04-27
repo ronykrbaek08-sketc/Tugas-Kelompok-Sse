@@ -48,7 +48,7 @@ Sistem ini dibangun dengan mematuhi prinsip *Secure Software Development Life Cy
 - PostgreSQL Database
 
 **Langkah Instalasi:**
-1. *Clone* repositori ini: `git clone [URL-REPO-KALIAN]`
+1. *Clone* repositori ini: `git clone [URL-REPO]`
 2. Masuk ke direktori *backend* dan instal dependensi: `cd backend && npm install`
 3. Masuk ke direktori *frontend* dan instal dependensi: `cd frontend && npm install`
 4. Buat *file* `.env` pada direktori *backend* untuk konfigurasi *database* (jangan di-*commit*!).
