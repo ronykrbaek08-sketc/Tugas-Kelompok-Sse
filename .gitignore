@@ -1,11 +1,26 @@
-# Dependency directories
-node_modules/
-venv/
-
-# Environment variables & Secrets (JANGAN DI-COMMIT)
+# === RAHASIA & KONFIGURASI SENSITIF ===
 .env
-*.secret
+.env.local
+.env.production
 config/*.secret
 
-# Log files
-npm-debug.log*
+# === DEPENDENSI ===
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# === HASIL BUILD ===
+dist/
+build/
+.next/
+
+# === FILE SISTEM OPERASI ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === EDITOR ===
+.vscode/
+.idea/
+*.swp
